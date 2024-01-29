@@ -25,7 +25,7 @@ h1 {
 }
 .typed-out{
      overflow: hidden;
-  border-right: 10em black;
+  border-right: 10em solid black;
   width: 0;
     animation: typing 3s steps(20, end) forwards;
 }
