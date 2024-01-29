@@ -24,8 +24,8 @@ a:hover {
 }
 h1 {
     font-size: 5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-background: linear-gradient(45deg, #C70039 , #900C3F;
+    font-family:'RecoletaMedium','Roboto', 'Helvetica', 'Sans-serif';
+background: linear-gradient(45deg, #C70039 , #900C3F);
 -webkit-background-clip: text;
 color: transparent;
 }
@@ -41,14 +41,10 @@ color: transparent;
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 100% }
+  to { width: 60% }
 }
 .container {
     display: inline-block;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translateY(-50%);
 }
 }
 p {
