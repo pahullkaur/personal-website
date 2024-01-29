@@ -28,7 +28,6 @@ h1 {
   border-right: .15em solid orange;
   width: 0;
     animation: typing 1s steps(20, end) forwards;
-;
 }
 @keyframes typing {
   from { width: 0 }
