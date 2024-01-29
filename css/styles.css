@@ -1,7 +1,9 @@
 body {
     margin: 60px auto;
     width: 70%;
+    height: 100%;
     background-color: #EDE3FF;
+    margin: 0;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -42,9 +44,11 @@ color: transparent;
   to { width: 60% }
 }
 .container {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 }
 p {
     font-size: 1.5em;
