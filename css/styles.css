@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    background-color: #EDE3FF;
+    background-color: #999;
 }
 nav ul, footer ul {
     font-family:'RecoletaMedium','Roboto', 'Helvetica', 'Sans-serif';
@@ -38,15 +38,14 @@ color: transparent;
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 60% }
+  to { width: 100% }
 }
 .container {
     display: inline-block;
 }
-}
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 3em;
+    line-height: 2.9em;
     color: #525056;
 }
 footer {
