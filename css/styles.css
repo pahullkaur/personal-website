@@ -14,7 +14,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #D5C1FB;
 }
 a:hover {
     text-decoration: underline;
@@ -33,7 +33,6 @@ h1 {
   animation-timing-function: steps(30, end);
   animation-fill-mode: forwards;
 }
-  
 @keyframes typing {
   from { width: 0 }
   to { width: 100% }
