@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'RecoletaMedium','Roboto', 'Helvetica', 'Sans-serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -41,12 +41,13 @@ color: transparent;
 }
 @keyframes typing {
   from { width: 0 }
-  to { width: 53% }
+  to { width: 100% }
 }
 .container {
     display: inline-block;
     position: absolute;
     top: 50%;
+    left: 20%;
     transform: translateY(-50%);
 }
 }
