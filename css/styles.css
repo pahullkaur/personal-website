@@ -38,11 +38,6 @@ h1 {
   from { width: 0 }
   to { width: 100% }
 }
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-border-right-width: 10em;
-}
 .container {
   display: inline-block;
 }
