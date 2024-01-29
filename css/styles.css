@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: #D5C1FB;
+    background-color: #EDE3FF;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -15,7 +15,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #525056;
 }
 a:hover {
     text-decoration: underline;
@@ -27,11 +27,11 @@ h1 {
 .typed-out {
   overflow: hidden;
   white-space: nowrap;
-  border-right: 3em solid;
+  border-right: 1em solid;
   width: 0;
   animation: typing;
   animation-duration: 1.5s;
-  animation-timing-function: steps(15, end);
+  animation-timing-function: steps(8, end);
   animation-fill-mode: forwards;
 }
 @keyframes typing {
@@ -44,10 +44,10 @@ h1 {
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: #525056;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #525056;
     font-size: .8em;
 }
 
