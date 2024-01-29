@@ -1,9 +1,6 @@
 body {
     margin: 60px auto;
-    width: 70%;
-    height: 100%;
     background-color: #EDE3FF;
-    margin: 0;
 }
 nav ul, footer ul {
     font-family:'RecoletaMedium','Roboto', 'Helvetica', 'Sans-serif';
