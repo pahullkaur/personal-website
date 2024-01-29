@@ -22,14 +22,12 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    overflow: hidden;
-    white-space: nowrap; 
 }
 .typed-out{
-    display: inline-block;
-  border-right: 5em black;
+     overflow: hidden;
+  border-right: 10em black;
   width: 0;
-    animation: typing 4s steps(30, end) forwards;
+    animation: typing 3s steps(20, end) forwards;
 }
 @keyframes typing {
   from { width: 0 }
