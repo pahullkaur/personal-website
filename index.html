@@ -1,28 +1,47 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <title> Pahul Kaur's Portfolio</title>
+   <title> most rizz <3</title>
   <link rel="stylesheet" href="css/styles.css">
  </head>
  <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Experience</a></li>
-       <li><a href=”/blog”>Projects</a></li>
-     </ul>
-   </nav>
    <div class="container">
      <div class="typed-out">
-       <h1>Hello, I'm Pahul!</h1>
-     </div>
-       <p> A developer, designer, engineering student, and UX/UI enthusiast. </a></p>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:YOUREMAIL”>pahuljohar@gmail.com</a></li>
-   </ul>
-   </footer>
+       <h1>Will You Be My Discord Kitten?</h1></div></div>
  </body>
+ <div>
+  <button class = "yesbutton" type="button" onclick="confetti()">Yes!</button>
+  <button class = "nobutton" id="no-button" type="button" onclick="changeText()">No</button>
+  <div id="gifContainer"></div>
+
+  <script>
+    function changeText(){
+    rando = ["try again","reconsider","please pookie", "i'm gonna cry", "pls lmao", "meow?", ":(", "pweaseee"]
+    const changeText = document.querySelector("#no-button");
+
+    changeText.addEventListener("click", function() {
+      changeText.textContent = rando[Math.floor(Math.random()*(8))];
+    });          
+  }
+  function confetti(){
+ // Replace 'your-gif-url.gif' with the actual URL of your GIF
+ var gifUrl = "confetti.gif";
+
+// Create an img element to display the GIF
+var gifElement = document.createElement('img');
+gifElement.src = gifUrl;
+
+// Get the container div where the GIF will be displayed
+var gifContainer = document.getElementById('gifContainer');
+
+// Append the img element to the container
+gifContainer.appendChild(gifElement);
+  }
+   </script>
+ </div>
+ <div class="gif">
+  <img src="bearlovegif.gif" style="width:460px;height:400px;">
+ </div>
+
+ 
 </html>
